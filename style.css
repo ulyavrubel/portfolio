@@ -1,97 +1,167 @@
-
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 body {
-    line-height:1;
+  line-height: 1;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-    display:block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
 nav ul {
-    list-style:none;
+  list-style: none;
 }
 
-blockquote, q {
-    quotes:none;
+blockquote,
+q {
+  quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 
 a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 /* change colours to suit your needs */
 ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
 }
 
 /* change colours to suit your needs */
 mark {
-    background-color:#ff9;
-    color:#000;
-    font-style:italic;
-    font-weight:bold;
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
 }
 
 del {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
 }
 
 table {
-    border-collapse:collapse;
-    border-spacing:0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* change border colour to suit your needs */
 hr {
-    display:block;
-    height:1px;
-    border:0;
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
-input, select {
-    vertical-align:middle;
+input,
+select {
+  vertical-align: middle;
 }
 
 /*my code*/
@@ -147,7 +217,7 @@ header nav ul li a {
 }
 
 header .header-cases {
-  display: none
+  display: none;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -187,7 +257,8 @@ header .header-cases {
 .index-banner {
   width: 100%;
   height: calc(100vh - 100px);
-  background-image: url('img/banner.jpeg');
+
+  background-image: url("img/banner2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -238,7 +309,6 @@ header .header-cases {
 }
 
 @media only screen and (min-width: 1000px) {
-
   .wrapper {
     width: 1000px;
     margin: 0 auto;
@@ -247,7 +317,7 @@ header .header-cases {
   .index-banner {
     width: 100%;
     height: 450px;
-    }
+  }
 
   .index-banner h1 {
     display: block;
@@ -276,7 +346,7 @@ header .header-cases {
 
   .index-links div h3 {
     line-height: 230px;
-    }
+  }
 }
 /*CASeS*/
 
@@ -336,18 +406,18 @@ header .header-cases {
   color: #111;
   text-transform: uppercase;
   padding-bottom: 20px;
-  }
+}
 
-  .case-vid article div p {
-    font-family: Catamaran;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    color: #111;
-    text-transform: uppercase;
-    column-count: 3;
-    column-gap: 30px;
-    }
+.case-vid article div p {
+  font-family: Catamaran;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #111;
+  text-transform: uppercase;
+  column-count: 3;
+  column-gap: 30px;
+}
 
 /*Gallery*/
 
@@ -383,7 +453,7 @@ header .header-cases {
 
   .gallery-img {
     flex-basis: 300px;
-    }
+  }
 }
 
 /*Footer*/
@@ -424,11 +494,10 @@ footer ul li a {
 
 .footer-sm img {
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 1000px) {
-
   .footer-links-cases {
     display: block;
   }
@@ -444,4 +513,41 @@ footer ul li a {
     line-height: 40px;
     text-transform: uppercase;
   }
+}
+
+#projects {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
+  /* align-items: center; */
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+}
+
+.project-item h2 {
+  font-family: Catamaran;
+  font-size: 16px;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.project-item a {
+  font-family: Catamaran;
+  font-size: 16px;
+  color: #111;
+}
+
+.project-item img {
+  padding-top: 10px;
+}
+
+.git-logo {
+  width: 2em;
 }
